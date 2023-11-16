@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagenes</title>
+  <link rel="stylesheet" href="estiloGallery.css">
+   <!-- MENU ENCABEZADO -->
+   <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Otro Shot CR</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#GALERIA" onclick="seleccionar()">GALERIA</a></li>
+                
+              
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+</div>
+</head>
+
+<body>
+ 
+  <div class="ful-img" id="fulImgBox">
+    <img onclick src="img/Mixologa.png" id="fulImg" alt="">
+ <span onclick="closeImg()">X</span>
+  </div>
+  <h1><span>Galeria</span></h1>
+  <div class="img-gallery">
+    <img src="img/Mixologa.png" onclick="openFulImg(this.src)"  alt="">
+    <img src="img/Mixologa2.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa3.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa4.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa5.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa6.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa7.png" onclick="openFulImg(this.src)" alt="">
+    <img src="img/Mixologa8.png" onclick="openFulImg(this.src)" alt="">
+  </div>
+  <script src="scriptGallery.js"> </script>
+</body>
+
+</html>

@@ -64,6 +64,7 @@ html{
     color: #fff;
     display: flex;
     align-items: center;
+    margin-top: 70px;
 }
 .inicio .contenido-banner{
     padding: 20px;
