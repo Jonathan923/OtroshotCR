@@ -133,38 +133,38 @@ html{
 
 
 /* ***************** */
-/* SECCION S A B O R E S */
+/* SECCION Galeria */
 /* ***************** */
-#sabores{
+#Galeria{
     padding: 50px 0;
 }
-#sabores h2{
+#Galeria h2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
 }
-#sabores .fila{
+#Galeria .fila{
     display: flex;
     max-width: 1100px;
     margin: auto;
 }
-#sabores .fila .item img{
+#Galeria .fila .item img{
     max-width: 80px;
 }
-#sabores .fila .item{
+#Galeria .fila .item{
     display: flex;
     align-items:center;
     margin: 20px 10px;
     padding: 5px;
 }
-#sabores .fila .item:hover{
+#Galeria .fila .item:hover{
     background-color:#04AA6D
 }
-#sabores .fila .item .info{
+#Galeria .fila .item .info{
     margin-left: 15px;
     font-size: 14px;
 }
-#sabores button{
+#Galeria button{
     display: block;
     width: fit-content;
     margin: auto;
@@ -179,30 +179,30 @@ html{
 }
 
 /* ***************** */
-/* SECCION P L A T O S */
+/* SECCION Cocteleria */
 /* ***************** */
-#platos h2{
+#Cocteleria h2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 30px;
 }
-#platos .fila{
+#Cocteleria .fila{
     max-width: 1100px;
     margin:auto;
     display: flex;
     justify-content: center;
 }
-#platos .fila .item{
+#Cocteleria .fila .item{
     width: 33%;
     position:relative;
     overflow: hidden;
 }
-#platos .fila .item img{
+#Cocteleria .fila .item img{
     width: 100%;
     display: block;
 }
-#platos .fila .item p{
+#Cocteleria .fila .item p{
     position:absolute;
     width: 100%;
     bottom: -100%;
@@ -211,10 +211,10 @@ html{
     color: #fff;
     transition: .5s;
 }
-#platos .fila .item:hover p{
+#Cocteleria .fila .item:hover p{
     bottom: 0;
 }
-#platos button{
+#Cocteleria button{
     display: block;
     width: fit-content;
     margin: auto;
