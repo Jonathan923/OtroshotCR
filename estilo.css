@@ -149,7 +149,7 @@ html{
     margin: auto;
 }
 #Galeria .fila .item img{
-    max-width: 500px;
+    max-width: 400px;
 }
 #Galeria .fila .item{
     display: flex;
